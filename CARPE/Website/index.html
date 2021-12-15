@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARPE</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#carpe" class="logo"> <span>CAR</span>PE </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+		<a href="#track">Car Tracking</a>
+        <a href="#Entry">Entry Recognition</a>
+        <a href="#Slot">Slot Availability</a>
+        <a href="#contact">Connect with us</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="https://accounts.google.com/servicelogin" target="_blank" rel="noopener noreferrer" class="btn"> google </a>
+            <a href="https://www.facebook.com/"target="_blank" rel="noopener noreferrer" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">Efficient Car Parking Experience</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    <a data-speed="7" href="#carpe" class="btn home-parallax">Car Alert Recognition in Parking Environment.</a>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+		<i class="fab fa-python"></i>
+        <div class="content">
+            <h3>Python </h3>
+            <p>OpenCV</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-camera"></i>
+        <div class="content">
+            <h3>Cars Under</h3>
+            <p>CCTV Surveillance</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>Ensuring</h3>
+            <p>Safety for people</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-video"></i>
+        <div class="content">
+            <h3>Image &</h3>
+            <p>Video Processing</p>
+        </div>
+    </div>
+
+</section>
+<section id="carpe">
+<h1 class="heading"> CARPE - <span>Car Alert Recognition in Parking</span> Environment</h1>
+<h1 align ="center"> In our daily life, usually in the office, on the street, in shopping complexes, everywhere is the only problem, and that is the 
+parking problem. Due to illegal parking, we have to face extreme misery every day.Our system will save both time and fuel for the driver. It will help 
+the drivers to park their cars in the parking space available. The driver would not have to waste his time looking for every parking slot. He can acknowledge
+ the availability of the slot by just using our software. This system is very different from hardware-based methods because it saves the installation as well
+ as the maintenance cost of hardware. 
+</h1>
+</section>
+<section class="featured" id="track">
+
+    <h1 class="heading">Car  <span>Tracking </span> & Identification </h1>
+	
+	<video class ="center" width="500" height="240" float = "left" controls>
+  <source src="image/snapchat-1537563684_RiCZjian.mp4" type="video/mp4">
+  <source src="image/snapchat-1537563684_RiCZjian.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<h1> Working from the ground of the basic building stone for the project. We detect every vehicle entering the parking lot. There are some many vehicles 
+entering a parking lot everyday. To ensure the safety and constant eye on vehicles, we enable Car tracking inside the parking lot to avoid any mishappening
+or any miscellaneous activity inside the parking lot. Vehicle tracking systems are also popular in consumer vehicles as a theft prevention, monitoring and retrieval 
+device. Police can simply follow the signal emitted by the tracking system and locate the stolen vehicle. When used as a security system, a Vehicle Tracking 
+System may serve as either an addition to or replacement for a traditional car alarm. Our system keeps a check on your vehicle using CCTVs and assist the 
+security agencies to keep a close look on vehicles either entering or moving inside a parking lot. </h1>	
+</section>
+
+<section class="vehicles" id="Entry">
+
+    <h1 class="heading"> Smart   <span>Entry</span> Recognition	</h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/carnnumber.jpeg" alt="">
+                <div class="content">
+				<h3>Original Image</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/carnumber2.jpeg" alt="">
+                <div class="content">
+                <h3>GrayScale Image</h3>   
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/carnumber3.jpeg" alt="">
+                <div class="content">
+				<h3>Edge Detection Image</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/carnumber1.jpeg" alt="">
+                <div class="content">
+                <h3>Number Plate Identification</h3>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/carnumber4.jpeg" alt="">
+                <div class="content">
+                <h3>Number Plate Extracted</h3>    
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/entrycont.jpeg" alt="">
+                <div class="content">	
+                <h3>Database Entry</h3>   
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+<h1> Everyday millions of vehicles enter a parking lot. They all are given a ticket to be entered into the parking lot. Helping out a driver by keeping the 
+vehicle details using number plate recording in the database according to the time of his entry. Fairly, charging the following person automatically as soon 
+as he exits. This system reduces the time spent in waiting at queues for a human to pass you through the booth. We use smart image & video processing to 
+identify the number plate and keeping the records of vehicles using CCTV camera facilities.</h1>
+</section>
+
+<section class="services" id="Slot">
+
+    <h1 class="heading"> Slot  <span>Availability</span> Feature </h1>
+
+   <video class ="vid1" width="320" height="240" align = "center" controls>
+  <source src="image/slotalloc_1.mp4" type="video/mp4">
+  <source src="image/slotalloc_1.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<video class = "vid2" width="320" height="210"  align = "right" controls>
+  <source src="image/slotalloc_2.mp4" type="video/mp4">
+  <source src="image/slotalloc_2.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<br><br><h2>It is said that “Time is money” so everyone gets frustrated when they give their time and effort in return for nothing.
+Our system will save both time and fuel for the driver. It will help the drivers to park their cars in the parking space available. 
+The driver would not have to waste his time looking for every parking slot. He can acknowledge the availability of the slot by just using our software.
+ This system is very different from hardware-based methods because it saves the installation as well as the maintenance cost of hardware. 
+</h2><br><br>
+</section>
+
+
+<section class="newsletter">
+    
+    <h3>subscribe for latest updates</h3>
+    <p>Get aid from us to supplement security in parking lots. </p>
+
+   <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe">
+   </form>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <form method="POST" action = "mailto:carpe@gmail.com?subject = Feedback&body = Message">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="tel" placeholder="subject" class="box">
+            <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+			<a href="#track"> <i class="fas fa-arrow-right"></i> Car Tracking </a>
+            <a href="#Entry"> <i class="fas fa-arrow-right"></i> Entry Recognition </a>
+            <a href="#Slot"> <i class="fas fa-arrow-right"></i> Slot Availability </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> Connect with us </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 9910309691 </a>
+            <a href="mailto:carpe@gmail.com?subject = Feedback&body = Message"> <i class="fas fa-envelope"></i> carpe@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> New Delhi, India - 110058 </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by Harshul Shah | Anushka Agarwal | Aman Bansal </div>
+
+</section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

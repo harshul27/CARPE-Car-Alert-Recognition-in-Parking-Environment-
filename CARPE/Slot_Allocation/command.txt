@@ -1,0 +1,1 @@
+python main.py --image images/parking_lot_2.png --data data/coordinates_2.yml --video videos/parking_lot_2.mp4 --start-frame 400
